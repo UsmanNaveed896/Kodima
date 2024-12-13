@@ -2,7 +2,7 @@ import React from "react";
 import Img from "../../assets/Group.png";
 import Img2 from "../../assets/image2.png";
 import Img3 from "../../assets/image3.png";
-import Img4 from "../../assets/Img.png";
+import Img4 from "../../assets/img.png";
 
 import { FaBox, FaGreaterThan, FaRegThumbsUp } from "react-icons/fa";
 

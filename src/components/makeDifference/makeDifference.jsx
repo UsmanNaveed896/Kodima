@@ -7,7 +7,7 @@ import Img3 from "../../assets/mobileGroup.png";
 const MakeDifference = () => {
   return (
     <div
-      className="main "
+      className="main pb-12 md:pb-0"
       style={{
         backgroundImage: `url(${Img2})`,
         backgroundSize: "cover", // Ensures the image covers the container

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../assets/MobileGroup.png";
+import Image from "../../assets/mobileGroup.png";
 import Image1 from "../../assets/image2.png";
 
 const OurMission = () => {

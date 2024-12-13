@@ -50,8 +50,8 @@ const Gallery = () => {
                   />
                 </div>
               </div>
-            </div>
-            <div className="flex md:gap-2 gap-6 flex-col md:flex-row">
+           
+            <div className="flex md:gap-2 gap-6 flex-col md:flex-row mt-5 md:mt-0">
               <div className="md:block flex justify-center">
                 <img
                   className="md:h-[200px] h-[400px] w-[80%] md:w-full"
@@ -66,6 +66,7 @@ const Gallery = () => {
                   alt="image"
                 />
               </div>
+            </div>
             </div>
           </div>
         </div>

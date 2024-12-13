@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="bg-black text-white py-8">
       <div className="container mx-auto px-6">
         {/* Top Section */}
-        <div className="flex flex-wrap items-center justify-between border-b border-gray-700 pb-6">
+        <div className="flex flex-wrap items-center md:justify-between justify-center border-b border-gray-700 pb-6">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 jus">
             <img
               src={Img}
               alt="Kadima Logo"
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
 
           {/* Get Started Button */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 mt-6 md:mt-0">
             <p className="text-sm">Ready to get started?</p>
             <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-lg">
               Get Started

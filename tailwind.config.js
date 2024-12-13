@@ -11,6 +11,9 @@ export default {
       },
       colors:{
         primary:"#f95f2a"
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right top, #15ccd8, #0dbccc, #09adbf, #089eb2, #0a8fa4);'
       }
     },
   },

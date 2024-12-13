@@ -13,8 +13,8 @@ const DonateNow = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="grid grid-cols-12 items-center">
-        <div className="col-span-3">
+      <div className="grid md:grid-cols-12 grid-cols-1 items-center md:p-0 p-6">
+        <div className="col-span-3 md:block hidden">
           <img className=" " src={Img} alt="image" />
         </div>
         <div className="col-span-6 ">
@@ -30,7 +30,7 @@ const DonateNow = () => {
                 consectetur. Nec ultricies consequat at vehicula aliquet
               </p>
               <div className=" mt-8">
-                <div className="flex gap-2 justify-center">
+                <div className="flex gap-2 justify-center flex-wrap">
                   <div className="bg-white rounded-xl w-[150px] h-[200px] flex flex-col items-center justify-center">
                     <p className="text-4xl font-semibold text-primary">$10</p>
                     <div className="mt-16">
@@ -78,10 +78,10 @@ const DonateNow = () => {
                   />
 
                   {/* Currency Type */}
-                  <span className="text-gray-500 text-sm font-medium">USD</span>
+                  <span className="text-gray-500 text-sm font-medium px-1 md:px-0">USD</span>
 
                   {/* Donate Button */}
-                  <button className="ml-4 bg-primary hover:bg-orange-600 text-[14px] text-white font-medium px-6 py-2 rounded-lg">
+                  <button className="md:ml-4 ml-0 bg-primary hover:bg-orange-600 text-[14px] text-white font-medium md:px-6 py-2 px-4 rounded-lg">
                     Donate
                   </button>
                 </div>
@@ -89,7 +89,7 @@ const DonateNow = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-3">
+        <div className="col-span-3 col-span-3 md:block hidden">
           <img className="rotate-180" src={Img} alt="image" />
         </div>
       </div>

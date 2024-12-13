@@ -2,7 +2,7 @@ import React from "react";
 
 const OurVision = () => {
   return (
-    <div className="relative  ">
+    <div className="relative hidden md:block ">
       <div className="relative h-[80vh] text-white">
         {/* Background video */}
         <video

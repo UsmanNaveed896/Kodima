@@ -10,25 +10,33 @@ import Img7 from "../../assets/image31.png";
 import Img8 from "../../assets/image32.png";
 import Img9 from "../../assets/image33.png";
 import Img10 from "../../assets/image34.png";
+import Img11 from "../../assets/1.png";
+import Img12 from "../../assets/2.png";
+import Img13 from "../../assets/3.png";
 
 import { FaGreaterThan } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 
 const OurPrograms = () => {
   return (
-    <div className="main bg-[#28292d] p-12">
+    <div className="main bg-[#28292d] md:p-12 p-6 ">
       <div className="flex justify-center">
         <div className="container max-w-[1000px]">
-          <div className="headings text-white">
-            <h2 className="text-4xl font-bold">Our Programs</h2>
-            <p className="text-[20px] mt-5">
-              Decisioning platforms can help you make decisions faster <br></br>{" "}
-              than ever before—and often with less effort—by giving you{" "}
-              <br></br> access to all of your current data in one place so that
-              it's <br></br> easy to find what you need when it's needed most!
+          <div className="headings text-white mt-12 md:mt-0">
+            <h2 className="text-4xl font-bold text-center md:text-start">
+              Our Programs
+            </h2>
+            <p className="md:text-[20px] text-[16px] mt-5 text-center md:text-start">
+              Decisioning platforms can help you make decisions faster{" "}
+              <br className="hidden md:block"></br> than ever before—and often
+              with less effort—by giving you{" "}
+              <br className="hidden md:block"></br> access to all of your
+              current data in one place so that it's{" "}
+              <br className="hidden md:block"></br> easy to find what you need
+              when it's needed most!
             </p>
           </div>
-          <div className="flex gap-2 mt-7 ">
+          <div className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -52,7 +60,7 @@ const OurPrograms = () => {
             </div>
           </div>
 
-          <div className="flex gap-2 mt-7 ">
+          <div className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img3} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -76,7 +84,7 @@ const OurPrograms = () => {
             </div>
           </div>
 
-          <div className="flex gap-2 mt-7 ">
+          <div className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img6} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -100,7 +108,7 @@ const OurPrograms = () => {
             </div>
           </div>
 
-          <div className="flex gap-2 mt-7 ">
+          <div className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img9} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -113,6 +121,63 @@ const OurPrograms = () => {
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
                 <p>Translation Services</p>
                 <IoIosArrowForward />
+              </div>
+            </div>
+          </div>
+
+          {/* FOR Mobile */}
+          <div className="md:hidden block">
+            <div className="flex flex-col gap-5 mt-12">
+              <div>
+                <img src={Img11} alt="mobile" />
+              </div>
+              <div className="text-white">
+                <h1 className="text-center font-semibold">
+                  Community Education:
+                </h1>
+                <p className="text-center mt-2">
+                  Providing after-school support, adult literacy programs, and
+                  skill-building workshops.
+                </p>
+                <h1 className="font-bold underline text-xl text-center mt-8">
+                  Learn More
+                </h1>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-5 mt-12">
+              <div>
+                <img src={Img12} alt="mobile" />
+              </div>
+              <div className="text-white">
+                <h1 className="text-center font-semibold">
+                  Health & Wellness:
+                </h1>
+                <p className="text-center mt-2">
+                  Connecting communities with essential healthcare services,
+                  mental wellness resources, and nutritious food.
+                </p>
+                <h1 className="font-bold underline text-xl text-center mt-8">
+                  Learn More
+                </h1>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-5 mt-12">
+              <div>
+                <img src={Img13} alt="mobile" />
+              </div>
+              <div className="text-white">
+                <h1 className="text-center font-semibold">
+                  Economic Empowerment:
+                </h1>
+                <p className="text-center mt-2">
+                  Offering job training, financial literacy, and
+                  entrepreneurship initiatives to promote self-sufficiency.
+                </p>
+                <h1 className="font-bold underline text-xl text-center mt-8">
+                  Learn More
+                </h1>
               </div>
             </div>
           </div>

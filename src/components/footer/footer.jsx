@@ -19,12 +19,14 @@ const Footer = () => {
 
           {/* Get Started Button */}
           <div className="flex items-center space-x-4 mt-6 md:mt-0">
-            <p className="text-sm">Ready to get started?</p>
+            <p className="text-sm name">Ready to get started?</p>
             <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-lg">
               Get Started
             </button>
           </div>
         </div>
+
+
 
         {/* Middle Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-8">

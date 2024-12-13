@@ -37,20 +37,20 @@ const Contact = () => {
               <div className="form mt-8">
                 <div className="flex gap-2 md:flex-row flex-col">
                   <input
-                    className="rounded border-[#e5e7eb] w-full p-2 bg-transparent border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
+                    className="rounded border-[#e5e7eb] w-full p-2  border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
                     placeholder="Full Name"
                   />
                   <input
-                    className="rounded border-[#e5e7eb] w-full p-2 bg-transparent border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
+                    className="rounded border-[#e5e7eb] w-full p-2  border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
                     placeholder="Email"
                   />
                 </div>
                 <input
-                  className="rounded mt-4 border-[#e5e7eb] w-full p-2 bg-transparent border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
+                  className="rounded mt-4 border-[#e5e7eb] w-full p-2  border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
                   placeholder="Subject"
                 />
                 <textarea
-                  className="rounded mt-4 border-[#e5e7eb] w-full p-2 bg-transparent border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
+                  className="rounded mt-4 border-[#e5e7eb] w-full p-2  border text-black bg-[#fff] opacity-60 outline-none focus:outline-none"
                   placeholder="Subject"
                   rows={4}
                 ></textarea>

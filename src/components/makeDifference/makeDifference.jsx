@@ -16,7 +16,7 @@ const MakeDifference = () => {
     >
       {/* FOR MOBILE */}
       <div className="block md:hidden">
-        <img src={Img3} alt="mobile" />
+        <img className=" w-full" src={Img3} alt="mobile" />
       </div>
       <div className="grid md:grid-cols-12 grid-cols-1 items-center md:p-0 px-6 py-1">
         <div className="col-span-3 hidden md:block ">

@@ -5,8 +5,9 @@ import Image1 from "../../assets/image2.png";
 const OurMission = () => {
   return (
     <div className="relative bg-custom-gradient pb-12 md:pb-0">
+      {/* For Mobile */}
       <img
-        className="absolute z-10 block md:hidden"
+        className="absolute z-10 block md:hidden w-full"
         src={Image}
         alt="mobile-image"
       />

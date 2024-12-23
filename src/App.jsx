@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "./components/header/header";
 import Section1 from "./components/section1/section1";
 import Section2 from "./components/section2/section2";
@@ -12,8 +12,16 @@ import Contact from "./components/contact/contact";
 import Information from "./components/information/information";
 import DonateNow from "./components/donateNow/donateNow";
 import Footer from "./components/footer/footer";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      once: false, // Whether animations should only happen once
+      offset: 200, // Trigger animations earlier or later (in px)
+    });
+  }, []);
   return (
     <>
       <div>

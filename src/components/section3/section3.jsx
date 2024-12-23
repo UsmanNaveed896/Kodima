@@ -8,7 +8,7 @@ import { FaBox, FaGreaterThan, FaRegThumbsUp } from "react-icons/fa";
 
 const Section3 = () => {
   return (
-    <div className="bg-[#28292d] flex pb-16 md:pb-0">
+    <div className="bg-[#28292d] flex pb-16 md:pb-0 overflow-hidden">
       {/* Decorative Pattern */}
       <div className="w-1/3 hidden md:block">
         <img src={Img} alt="Decorative Pattern" className="h-[720px]" />
@@ -18,14 +18,14 @@ const Section3 = () => {
       <div className="md:relative static flex md:flex-col flex-col-reverse lg:flex-row items-center justify-evenly lg:items-start gap-6">
         {/* Image Section */}
         <div className="md:relative static">
-          <div className="md:relative static z-0 md:top-[160px] top-[0] md:left-[-154px] left-0">
+          <div data-aos="fade-right" className="md:relative static z-0 md:top-[160px] top-[0] md:left-[-154px] left-0">
             <img
               src={Img2}
               alt="Volunteers"
               className="rounded-lg shadow-lg h-[400px]"
             />
           </div>
-          <div className="md:mt-0 mt-5 md:absolute static bottom-0 left-[-30px] top-[330px] md:transform md:translate-x-10 md:translate-y-10 z-10">
+          <div data-aos="fade-up" className="md:mt-0 mt-5 md:absolute static bottom-0 left-[-30px] top-[330px] md:transform md:translate-x-10 md:translate-y-10 z-10">
             <img
               src={Img3}
               alt="Volunteers"
@@ -37,7 +37,7 @@ const Section3 = () => {
           <img className=" w-[69%] mr-2" src={Img4} alt="mobile-image" />
         </div>
         {/* Text Section */}
-        <div className="lg:w-1/2 text-white space-y-6 mt-32 text-center px-4">
+        <div data-aos="zoom-in" className="lg:w-1/2 text-white space-y-6 mt-32 text-center px-4">
           <h2 className="text-4xl font-bold">Who We Are</h2>
           <p className="text-[16px]">
             Our non-profit is committed to serving the people of New York City

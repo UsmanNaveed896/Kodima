@@ -7,7 +7,7 @@ import Img3 from "../../assets/image2.png";
 const Contact = () => {
   return (
     <div
-      className="main "
+      className="main overflow-hidden"
       style={{
         backgroundImage: `url(${Img2})`,
         backgroundSize: "cover", // Ensures the image covers the container
@@ -16,10 +16,10 @@ const Contact = () => {
     >
       <div className="grid md:grid-cols-12 grid-cols-1 items-center md:p-0 p-6">
         <div className="col-span-3 md:block hidden">
-          <img className=" " src={Img} alt="image" />
+          <img data-aos="fade-right" className=" " src={Img} alt="image" />
         </div>
         <div className="col-span-6 ">
-          <div className=" ">
+          <div  data-aos="zoom-in" className=" ">
             <div>
               <h1 className="text-center md:text-5xl text-4xl font-bold text-white ">
                 Get in touch
@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-3 md:block hidden">
+        <div data-aos="fade-left" className="col-span-3 md:block hidden">
           <img className="rotate-180" src={Img} alt="image" />
         </div>
       </div>

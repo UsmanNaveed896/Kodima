@@ -2,7 +2,7 @@ import React from "react";
 
 const OurVision = () => {
   return (
-    <div className="relative hidden md:block ">
+    <div className="relative hidden md:block overflow-hidden ">
       <div className="relative h-[80vh] text-white">
         {/* Background video */}
         <video
@@ -16,12 +16,12 @@ const OurVision = () => {
           Your browser does not support the video tag.
         </video>
         {/* Overlay for color and content */}
-        <div className="absolute inset-0 bg-primary bg-opacity-80"></div>
+        <div  className="absolute inset-0 bg-primary bg-opacity-80"></div>
         {/* Mission text content */}
         <div className="flex justify-center">
           <div className="container max-w-[900px]">
             <div className="flex justify-center">
-              <div className="relative z-10 flex gap-32 top-[160px]">
+              <div data-aos="zoom-in" className="relative z-10 flex gap-32 top-[160px]">
                 <p className="text-2xl">
                   A New York City where all residents,<br></br> regardless of economic
                   status, have the <br></br> support, resources, and opportunities <br></br> needed
@@ -34,14 +34,14 @@ const OurVision = () => {
                 </h2>
               </div>
               <div className="lines relative z-10 ">
-                <div className="h-[94px] w-[5px] bg-[#ffcbba] "></div>
+                <div data-aos="fade-down" className="h-[94px] w-[5px] bg-[#ffcbba] "></div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="lines  flex justify-start">
-        <div className="w-[600px] h-[5px] bg-[#ffcbba] absolute top-12"></div>
+        <div data-aos="fade-right" className="w-[600px] h-[5px] bg-[#ffcbba] absolute top-12"></div>
       </div>
     </div>
   );

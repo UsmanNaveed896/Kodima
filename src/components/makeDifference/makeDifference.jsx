@@ -7,7 +7,7 @@ import Img3 from "../../assets/mobileGroup.png";
 const MakeDifference = () => {
   return (
     <div
-      className="main pb-12 md:pb-0"
+      className="main pb-12 md:pb-0 overflow-hidden"
       style={{
         backgroundImage: `url(${Img2})`,
         backgroundSize: "cover", // Ensures the image covers the container
@@ -20,10 +20,10 @@ const MakeDifference = () => {
       </div>
       <div className="grid md:grid-cols-12 grid-cols-1 items-center md:p-0 px-6 py-1">
         <div className="col-span-3 hidden md:block ">
-          <img className="" src={Img} alt="image" />
+          <img data-aos="fade-right"  className="" src={Img} alt="image" />
         </div>
         <div className="col-span-6 ">
-          <div className="flex justify-center">
+          <div data-aos="zoom-in" className="flex justify-center">
             <div>
               <h1 className="text-center md:text-5xl text-2xl font-bold text-white ">
                 How You Can <br className="hidden md:block"></br> Make a
@@ -65,7 +65,7 @@ const MakeDifference = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-3 hidden md:block ">
+        <div data-aos="fade-left"  className="col-span-3 hidden md:block ">
           <img className="rotate-180 hidden md:block " src={Img} alt="image" />
         </div>
       </div>

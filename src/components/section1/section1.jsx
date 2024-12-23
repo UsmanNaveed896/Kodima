@@ -4,14 +4,15 @@ import Img from "../../assets/Frame76.png";
 import Img1 from "../../assets/Frame77.png";
 import Img2 from "../../assets/Frame78.png";
 import Img3 from "../../assets/Frame79.png";
+import Video from "../../assets/video.mp4";
 import { IoCaretBackCircle, IoCaretForwardCircleSharp } from "react-icons/io5";
 
 const Section1 = () => {
   return (
-    <div className="relative w-full h-screen  font-poppins">
+    <div className="overflow-hidden relative w-full h-screen  font-poppins">
       <video
         className="absolute inset-0 bg-black w-full h-full object-cover"
-        src="https://s3-figma-videos-production-sig.figma.com/video/894162429031933830/TEAM/2d35/92f8/-1632-487c-954a-746fe8f1f356?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m5TFhEwtoPNJTTAKH7akb5peanvKBC5EP~N72JGX2F3Mhknm9lfq4jcwKXxzOAXLL6CpzPMM1Qq1oMuK1mw9HrxBXRgLj05WqyveA67V5kcyFmDmA0ZYKzYTevqSLqddHAbEAxMvlkFOgOhWqu2hXJsDN0-53AP--e0Ii7zNH8Dew4~ea2CXVftesGVQCUyaFTArlucqHljzQ4rk21WuFhZqg9uk82yvw4cwUpDhVpyzjPwiIpwzgNUFtWiAjU91CE7fIMnKdlQJ1rJkF6iyl~fgoR-lS-mlkkr58wk1UT7BhItbQha6Bq8VN3cwveRMqt2TMk6-wBU9e2hNKRgjwg__" // Replace with your video file
+        src={Video}
         autoPlay
         loop
         muted
@@ -25,16 +26,16 @@ const Section1 = () => {
           <div className="md:mt-32 mt-4 container max-w-[1000px]">
             <div className="flex justify-between items-center">
               <div className="mt-[10rem] md:mt-0">
-                <h1 className="text-[35px] md:text-[30px] font-bold tracking-wide md:text-start text-center">
+                <h1 data-aos="zoom-in" className="text-[35px] md:text-[30px] font-bold tracking-wide md:text-start text-center">
                   Building a Thriving New <br></br> York City for Everyone
                 </h1>
-                <p className="mt-4 text-sm md:text-[16px] max-w-2xl leading-7 md:text-start text-center">
+                <p data-aos="flip-up" className="mt-4 text-sm md:text-[16px] max-w-2xl leading-7 md:text-start text-center">
                   Empowering individuals, strengthening communities,{" "}
                   <br className="hidden md:block"></br> and creating
                   opportunities for a better future.
                 </p>
                 {/* Buttons */}
-                <div className="flex space-x-4 mt-6 justify-center md:justify-normal">
+                <div data-aos="flip-up" className="flex space-x-4 mt-6 justify-center md:justify-normal">
                   <button className="px-6 py-3 bg-transparent border border-primary rounded-md text-sm font-semibold hover:bg-orange-500 text-primary">
                     Join Us
                   </button>
@@ -51,7 +52,7 @@ const Section1 = () => {
               </div>
               {/* Play Button */}
               <div className="mt-10 hidden md:block">
-                <button className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center hover:bg-orange-600">
+                <button data-aos="zoom-in" className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center hover:bg-orange-600">
                   <FaPlay className="h-8 w-8" />
                 </button>
               </div>
@@ -61,7 +62,7 @@ const Section1 = () => {
       </div>
 
       {/* Carousel Section */}
-      <div className="absolute bottom-0 right-0 py-4 hidden md:block">
+      <div data-aos="slide-left" className="absolute bottom-0 right-0 py-4 hidden md:block">
         <h3 className="text-white text-sm font-normal text-start mb-4 ml-6">
           Up Next
         </h3>

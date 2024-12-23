@@ -19,10 +19,10 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const OurPrograms = () => {
   return (
-    <div className="main bg-[#28292d] md:p-12 p-6 ">
+    <div className="main bg-[#28292d] md:p-12 p-6 overflow-hidden">
       <div className="flex justify-center">
         <div className="container max-w-[1000px]">
-          <div className="headings text-white mt-12 md:mt-0">
+          <div data-aos="fade-right" className="headings text-white mt-12 md:mt-0">
             <h2 className="text-4xl font-bold text-center md:text-start">
               Our Programs
             </h2>
@@ -36,7 +36,7 @@ const OurPrograms = () => {
               when it's needed most!
             </p>
           </div>
-          <div className=" hidden md:flex gap-2 mt-7 ">
+          <div  data-aos="flip-up" className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -60,7 +60,7 @@ const OurPrograms = () => {
             </div>
           </div>
 
-          <div className=" hidden md:flex gap-2 mt-7 ">
+          <div  data-aos="flip-up" className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img3} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -84,7 +84,7 @@ const OurPrograms = () => {
             </div>
           </div>
 
-          <div className=" hidden md:flex gap-2 mt-7 ">
+          <div  data-aos="flip-up" className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img6} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -108,7 +108,7 @@ const OurPrograms = () => {
             </div>
           </div>
 
-          <div className=" hidden md:flex gap-2 mt-7 ">
+          <div  data-aos="flip-up" className=" hidden md:flex gap-2 mt-7 ">
             <div>
               <img src={Img9} alt="image" />
               <div className="flex justify-between items-center px-4 pb-2 mt-[-30px] text-white">
@@ -129,9 +129,9 @@ const OurPrograms = () => {
           <div className="md:hidden block">
             <div className="flex flex-col gap-5 mt-12">
               <div>
-                <img src={Img11} alt="mobile" />
+                <img  data-aos="flip-up"  src={Img11} alt="mobile" />
               </div>
-              <div className="text-white">
+              <div  data-aos="zoom-in" className="text-white">
                 <h1 className="text-center font-semibold">
                   Community Education:
                 </h1>
@@ -147,9 +147,9 @@ const OurPrograms = () => {
 
             <div className="flex flex-col gap-5 mt-12">
               <div>
-                <img src={Img12} alt="mobile" />
+                <img data-aos="flip-up" src={Img12} alt="mobile" />
               </div>
-              <div className="text-white">
+              <div  data-aos="zoom-in" className="text-white">
                 <h1 className="text-center font-semibold">
                   Health & Wellness:
                 </h1>
@@ -165,9 +165,9 @@ const OurPrograms = () => {
 
             <div className="flex flex-col gap-5 mt-12">
               <div>
-                <img src={Img13} alt="mobile" />
+                <img  data-aos="flip-up" src={Img13} alt="mobile" />
               </div>
-              <div className="text-white">
+              <div data-aos="zoom-in" className="text-white">
                 <h1 className="text-center font-semibold">
                   Economic Empowerment:
                 </h1>

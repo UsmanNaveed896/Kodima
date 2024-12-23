@@ -4,7 +4,7 @@ import Img1 from "../../assets/image37.png";
 
 const Information = () => {
   return (
-    <div className="main md:bg-primary bg-[#28292d] pb-12">
+    <div className="main md:bg-primary bg-[#28292d] pb-12 overflow-hidden">
       <div className="flex justify-end relative">
         <img
           className="absolute z-0 h-[400px] opacity-50 md:flex hidden"
@@ -15,7 +15,7 @@ const Information = () => {
       <div className="flex justify-center">
         <div className="container max-w-[1000px] relative z-9 px-6 md:px-0">
           <div className="flex justify-center mt-12">
-            <div>
+            <div data-aos="zoom-in">
               <h1 className="text-center md:text-5xl text-4xl font-bold text-white ">
                 Information is Beautiful
               </h1>
@@ -29,7 +29,7 @@ const Information = () => {
           </div>
           <div className="flex justify-center mt-16 gap-2">
             <div className="">
-              <img className="" src={Img1} alt="image" />
+              <img  data-aos="flip-up" className="" src={Img1} alt="image" />
             </div>
            
           </div>

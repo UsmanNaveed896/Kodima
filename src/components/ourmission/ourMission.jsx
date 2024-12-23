@@ -4,9 +4,10 @@ import Image1 from "../../assets/image2.png";
 
 const OurMission = () => {
   return (
-    <div className="relative bg-custom-gradient pb-12 md:pb-0">
+    <div className="relative bg-custom-gradient pb-12 md:pb-0 overflow-hidden">
       {/* For Mobile */}
       <img
+      data-aos="fade-left"
         className="absolute z-10 block md:hidden w-full"
         src={Image}
         alt="mobile-image"
@@ -30,13 +31,13 @@ const OurMission = () => {
           <div className="container max-w-[900px]">
             <div className="flex justify-center">
               <div className="lines relative z-10 md:block hidden">
-                <div className="h-[94px] w-[5px] bg-[#85eaf6] "></div>
+                <div data-aos="fade-down" className="h-[94px] w-[5px] bg-[#85eaf6] "></div>
               </div>
-              <div className="md:relative static z-10 flex md:flex-row flex-col md:gap-32 gap-2 top-[160px] md:mt-0 mt-32">
+              <div data-aos="zoom-in"  className="md:relative static z-10 flex md:flex-row flex-col md:gap-32 gap-2 top-[160px] md:mt-0 mt-32">
                 <h2 className="md:text-5xl text-2xl font-bold md:mb-6 md:text-start text-center md:mt-0 mt-5">
                   Our <br className="md:block hidden"></br> Mission
                 </h2>
-                <p className="md:text-2xl text-sm text-center md:text-start">
+                <p  className="md:text-2xl text-sm text-center md:text-start">
                   We are dedicated to empowering <br></br> underserved
                   communities across New <br></br> York City by providing access
                   to <br></br> education, resources, and opportunities.<br></br>
@@ -50,10 +51,10 @@ const OurMission = () => {
             {/* FOR MOBILE */}
 
             <div className="md:relative static md:hidden flex z-10 md:flex-row flex-col md:gap-32 gap-1 top-[20px] md:mt-0 mt-8">
-              <h2 className="md:text-5xl text-2xl font-bold md:mb-6 md:text-start text-center md:mt-0 mt-5">
+              <h2 data-aos="zoom-in" className="md:text-5xl text-2xl font-bold md:mb-6 md:text-start text-center md:mt-0 mt-5">
                 Our <br className="md:block hidden"></br> Vision
               </h2>
-              <p className="md:text-2xl text-sm text-center md:text-start px-12">
+              <p data-aos="zoom-in" className="md:text-2xl text-sm text-center md:text-start px-12">
                 A New York City where all residents, regardless of economic
                 status, have the support, resources, and opportunities needed to
                 live fulfilling and dignified lives. We envision a future where
@@ -61,13 +62,13 @@ const OurMission = () => {
                 person has the chance to achieve their full potential.
               </p>
 
-              <img className="mt-5 px-6" src={Image1} alt="for Mobile" />
+              <img data-aos="zoom-in" className="mt-5 px-6" src={Image1} alt="for Mobile" />
             </div>
           </div>
         </div>
       </div>
-      <div className="lines justify-end md:flex hidden">
-        <div className="w-[600px] h-[5px] bg-[#85eaf6] absolute top-12"></div>
+      <div  className="lines justify-end md:flex hidden">
+        <div data-aos="fade-left" className="w-[600px] h-[5px] bg-[#85eaf6] absolute top-12"></div>
       </div>
     </div>
   );
